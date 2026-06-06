@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<idea-plugin>
+  <id>com.paulvilla.theme-jetbrains-tokyodarkplusislands</id>
+  <name>Tokyo Dark Plus Islands</name>
+  <vendor>Paul Villa</vendor>
+  <version>1.0.0</version>
+  <idea-version since-build="242" until-build="261.*" />
+  <depends>com.intellij.modules.platform</depends>
+  <extensions defaultExtensionNs="com.intellij">
+    <themeProvider id="com.paulvilla.tokyodarkplusislands" path="/themes/TokyoDarkPlusIslands.theme.json" />
+  </extensions>
+</idea-plugin>
